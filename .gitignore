@@ -1,4 +1,5 @@
-input/Coronavirus_Update_NDR
+**/input/Coronavirus_Update_NDR/
+**/Datensatz/
 
 .project
 .classpath
