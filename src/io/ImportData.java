@@ -58,7 +58,7 @@ public class ImportData {
 	public void writeListToTxt(List<String> list, String path) throws IOException {
 		FileWriter writer = new FileWriter(path);
 		for (String str : list) {
-			writer.write(str + System.lineSeparator());
+			writer.write(str + "," + System.lineSeparator());
 		}
 		writer.close();
 	}
